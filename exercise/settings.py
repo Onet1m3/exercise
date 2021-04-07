@@ -118,7 +118,15 @@ USE_L10N = True
 
 USE_TZ = True
 
+# REDIS SETTINGS
+REDIS_HOST = os.getenv('REDIS_HOST', 'localhost')
+REDIS_PORT = 6379
 
+# CELERY SETTINGS
+# CELERY_TIMEZONE = "Australia/Tasmania"
+CELERY_TASK_TRACK_STARTED = True
+CELERY_TASK_TIME_LIMIT = 30 * 60
+CELERY_BROKER_URL = os.getenv('CELERY_BROKER_URL', 'redis://localhost:6379')
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/

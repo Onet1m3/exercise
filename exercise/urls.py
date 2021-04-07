@@ -6,7 +6,7 @@ from news.views import NewsModelAPIView
 
 
 router = routers.DefaultRouter()
-router.register(r'users', NewsModelAPIView)
+router.register(r'', NewsModelAPIView)
 
 urlpatterns = [
     path('admin/', admin.site.urls),

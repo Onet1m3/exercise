@@ -7,6 +7,8 @@ name = "pypi"
 requests = "*"
 django = "==3.0"
 djangorestframework = "*"
+celery = "==5.0.5"
+redis = "==3.5.3"
 
 [dev-packages]
 
