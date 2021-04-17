@@ -10,9 +10,11 @@ class NewsModelAPIView(viewsets.ModelViewSet):
     queryset = NewsModel.objects.all()
     serializer_class = NewsModelSerializers
 
-def index(request):
-    context = {}
-    return render(request, "index.html", context=context)
+
+class MainPage(ListView):
+    queryset = NewsModel.objects.all()
+    template_name = "index.html"
+    context_object_name = "item"
 
 
 class NewsPage(ListView):
