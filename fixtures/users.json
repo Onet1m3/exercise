@@ -1,0 +1,118 @@
+[
+{
+    "model": "auth.user",
+    "pk": 22,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$ISVQqiSsgzsd$SCwwVCTUoT45oC7li0AJ0VOKHHWlDSjwy/5zCPD/qOo=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Alexzzzz",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-04-17T21:30:26Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 33,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$fIzmqPreH7RB$9ArZnCY2xZVw21Nd4QxvshjL73YL+/idE3CXVmpvXp8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "AlexA",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-04-17T21:31:39.370Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 77,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$NNMC8K1J1rAS$K0RiU+q08lme3UHiP/O28u9EkmCSB46mH60IJyl5Etc=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Tom",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-04-17T21:46:45.732Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "news.menuitem",
+    "pk": 1,
+    "fields": {
+        "title": "Главная",
+        "slug": ""
+    }
+},
+{
+    "model": "news.menuitem",
+    "pk": 2,
+    "fields": {
+        "title": "Новости",
+        "slug": "novosti"
+    }
+},
+{
+    "model": "news.menuitem",
+    "pk": 2,
+    "fields": {
+        "title": "Статистика",
+        "slug": "statistika"
+    }
+},
+{
+    "model": "news.newsmodel",
+    "pk": 1,
+    "fields": {
+        "title": "Новости",
+        "slug": "novosti"
+    }
+},
+{
+    "model": "news.newsmodel",
+    "pk": 1,
+    "fields": {
+        "title": "First news",
+        "content": "Some text",
+        "publish_date": "2021-04-07T19:56:33Z",
+        "author": 33
+    }
+},
+{
+    "model": "news.newsmodel",
+    "pk": 2,
+    "fields": {
+        "title": "Second news",
+        "content": "Some text",
+        "publish_date": "2021-04-07T19:56:33Z",
+        "author": 77
+    }
+},
+{
+    "model": "news.newsmodel",
+    "pk": 3,
+    "fields": {
+        "title": "Third news",
+        "content": "Some text",
+        "publish_date": "2021-04-07T19:56:33Z",
+        "author": 33
+    }
+}
+]

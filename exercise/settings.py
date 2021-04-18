@@ -121,5 +121,11 @@ CELERY_BROKER_URL = os.getenv('CELERY_BROKER_URL', 'redis://localhost:6379')
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
+FIXTURE_DIRS = [os.path.join(BASE_DIR, 'fixtures')]
+
+LOGIN_EXEMPT_URLS = [
+    'admin',
+]
+
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')

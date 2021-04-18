@@ -1,0 +1,11 @@
+{% extends "index.html" %}
+
+{% block content %}
+<div class="container">
+    <ul class="collection">
+        {% for user in users %}
+    <li class="collection-item">{{user}}</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}
