@@ -71,18 +71,10 @@
 },
 {
     "model": "news.menuitem",
-    "pk": 2,
+    "pk": 3,
     "fields": {
         "title": "Статистика",
         "slug": "statistika"
-    }
-},
-{
-    "model": "news.newsmodel",
-    "pk": 1,
-    "fields": {
-        "title": "Новости",
-        "slug": "novosti"
     }
 },
 {
